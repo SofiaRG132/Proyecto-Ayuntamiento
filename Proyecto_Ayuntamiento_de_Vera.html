@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto A4: Ayuntamiento</title>
+    <link rel="stylesheet" href="./Proyecto_Ayuntamiento_de_Vera.css">
+    <link rel="shortcut icon" type="image/png" href="./imagenes/Tarea_08/Favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <div class="topnav" id="myTopnav">
+        <a class="Inicio" href="#Inicio" class="active">Inicio</a>
+        <a class="Turismo" href="#Turismo">Turismo</a>
+        <a class="Historia" href="#Historia">Historia</a>
+        <a class="Encuentranos" href="#Encuentranos">Donde nos encontramos</a>
+        <a class="Contacto" href="#Contacto">Contacto</a>
+        <a class="Contacto" href="#Formulario">Formulario</a>
+        <img src="./Videos_y_Sonidos/Videos_Proyecto_Ayuntamiento/Foto_logo_menu.png" alt="Ayuntamiento de Vera"
+            class="logo_menu">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+
+
+    <!--Seccion de Inicio-->
+    <section id="Inicio">
+        <h1 style="color: blue;"> BIENVENIDO A LA PAGINA WEB DEL AYUNTAMIENTO DE VERA </h1>
+        <article class="inicio">
+            <p>Bienvenido al sitio oficial del Ayuntamiento de Vera, una entidad local comprometida
+                con ofrecer servicios públicos de calidad, facilitar los trámites administrativos y
+                fomentar el desarrollo social, cultural y económico del municipio. En esta página podrás
+                estar al día con las últimas noticias oficiales, acceder a la Sede Electrónica para gestionar
+                certificados o presentar documentación, consultar una guía práctica para vecinos, y explorar
+                recursos útiles tanto para residentes como para visitantes y empresas.
+            </p>
+            <p>
+                Entre las secciones más destacadas encontrarás novedades municipales, la agenda de actividades,
+                avisos sobre obras o cortes de calles, así como oportunidades de empleo y convocatorias públicas.
+                Dispones de accesos rápidos a la Sede Electrónica, al sistema de Cita Previa, al formulario para
+                notificar incidencias y a las noticias destacadas.
+            </p>
+
+            <p>El horario de atención presencial es de lunes a viernes, de 9:00 a 14:00. Si necesitas
+                realizar gestiones urgentes, también puedes contactar por teléfono o por medios telemáticos,
+                y reservar tu cita a través de la Sede Electrónica. Recuerda que para presentar tus documentos
+                es útil adjuntar los archivos en formato PDF.</p>
+            <div class="Grid_centro">
+                <video src="./Videos_y_Sonidos/Videos_Proyecto_Ayuntamiento/Video_Corto_pueblo.mp4" controls></video>
+
+            </div>
+
+        </article>
+    </section>
+
+
+
+    <!--Seccion de Turismo-->
+    <section id="Turismo">
+        <h1 style="color:crimson;"> Turismo </h1>
+        <hr>
+        <aside class="turismo">
+            <article>
+                <p style="text-align: left;">Vera cuenta con una costa privilegiada, playas de gran calidad
+                    y una oferta variada para quienes buscan disfrutar del mar así como del entorno natural.
+                    En la sección de turismo de la web podrás descubrir rutas recomendadas —tanto costeras
+                    como de senderismo—, fichas detalladas de las playas (servicios, accesibilidad, bandera),
+                    alojamientos recomendados, restaurantes con encanto y un calendario de eventos estacionales.</p>
+            </article>
+        </aside>
+
+        <div class="Grid">
+            <video controls loop>
+                <source src="./Videos_y_Sonidos/Videos_Proyecto_Ayuntamiento/Video_playa.mp4" type="video/mp4">
+                Tu navegador no es capaz de reproducir este video.
+            </video>
+            <iframe class="Video_iframe" src="https://www.youtube.com/embed/Bf7qfiil1XA?si=eIYvISk-EGRGlriP"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+
+
+        <aside class="turismo2">
+            <article>
+                <p style="text-align: left;">Imagina tarjetas de playa como esta: "Playa de El Playazo: una franja de
+                    arena
+                    fina, paseo marítimo, servicios en temporada y ambiente ideal para familias y deportes náuticos.”
+                    También puedes encontrar propuestas para pasar un fin de semana en Vera (ya sea en pareja o en
+                    familia),
+                    experiencias más locales como visitas a mercados o recorridos guiados, y recomendaciones para un
+                    turismo
+                    sostenible (reglas de uso de las playas, limpieza, etc.).</p>
+            </article>
+        </aside>
+        
+    </section>
+
+
+<!--Seccion de Historia-->
+    <section id="Historia">
+        <h1> Historia De La Noble Ciudad de Vera </h1>
+        <hr>
+        <aside class="historia">
+            <article>
+                <p>La historia de Vera es profunda y fascinante: su casco antiguo, lleno de calles empedradas,
+                    antiguas puertas y monumentos religiosos, es un testimonio vivo de siglos de evolución.
+                    En el núcleo medieval de la ciudad se pueden rastrear los vestigios de su pasado, desde
+                    sus orígenes hasta su transformación en un municipio próspero tanto agrícola como costero.
+                    Puedes ver además un conjunto de fotos del pueblo de Vera en mi página para conocer
+                    visualmente cómo se entrelaza su historia con el paisaje urbano.
+                </p>
+                <p>
+                    La “Noble Ciudad de Vera” ha sido durante mucho tiempo un punto de cruce y enlace entre comarcas,
+                    y su legado histórico se hace visible en sus iglesias, en monumentos antiguos y en las tradiciones
+                    que aún se celebran. En el plano cronológico podemos decir que durante los siglos XIII a XV Vera
+                    consolidó su núcleo medieval; en los siglos XVI a XVIII hubo un crecimiento agrario considerable;
+                    y en el siglo XX la costa se transformó, con nuevas urbanizaciones y un impulso al turismo.
+                </p>
+
+                <p>En cuanto al patrimonio, destacan la iglesia parroquial (Iglesia de Nuestra Señora de la
+                    Encarnación),
+                    las puertas antiguas que daban acceso a la villa, ferias y fiestas locales tradicionales, y antiguos
+                    oficios que todavía perviven en la memoria colectiva. Podrías ofrecer a los visitantes un folleto
+                    histórico descargable (tipo PDF) pensado tanto para turismo como para uso educativo en colegios.</p>
+
+            </article>
+
+            <iframe class="iframe_Historia" src="./Historia_de_la_noble_ciudad_de_vera.html"></iframe>
+        </aside>
+
+    </section>
+
+    <!--Seccion de Encuentranos-->
+    <section id="Encuentranos">
+        <h2> Donde nos encontramos </h2>
+        <hr>
+        <aside class="encuentranos">
+
+            <article>
+                <p>Vera cuenta con varias conexiones de transporte que facilitan
+                    la llegada tanto desde municipios cercanos como desde capitales
+                    provinciales. A continuación se presenta una tabla resumen con
+                    las rutas más utilizadas por viajeros y residentes, indicando tiempos
+                    aproximados, la frecuencia habitual de los servicios, los puntos de
+                    llegada y algunas recomendaciones útiles para planificar el desplazamiento.</p>
+            </article>
+
+            <table>
+                <tr>
+                    <th>Origen</th>
+                    <th>Tiempo aproximado</th>
+                    <th>Frecuencia</th>
+                    <th>Parada de llegada en Vera</th>
+                    <th>Observaciones</th>
+                </tr>
+                <tr>
+                    <td>Almería capital</td>
+                    <td>1h 40 min</td>
+                    <td>6–8 servicios diarios</td>
+                    <td>Estación de Autobuses de Vera</td>
+                    <td>Recomendable comprar billete con antelación en temporada alta.</td>
+                </tr>
+                <tr>
+                   <td>Mojácar</td>
+                   <td>20–25 min</td>
+                   <td>Salidas cada 30–60 min</td>
+                   <td>Parada central en Av. de Andalucía</td>
+                   <td>Línea muy utilizada por turistas; suele haber ocupación alta en verano.</td>
+                </tr>
+                <tr>
+                   <td>Garrucha</td>
+                   <td>10–15 min</td>
+                   <td>Salidas frecuentes</td>
+                   <td>Estación de Autobuses de Vera</td>
+                   <td>Trayecto muy corto; ideal para desplazamientos diarios.</td>
+                </tr>
+
+                <tr>
+                    <td>Cuevas del Almanzora</td>
+                    <td>25–30 min</td>
+                    <td>4–6 servicios diarios</td>
+                    <td>Estación de Autobuses de Vera</td>
+                    <td>Conexión recomendable para visitas culturales y trámites comarcales.</td>
+                 </tr>
+                 <tr>
+                    <td>Murcia</td>
+                    <td>1h 10–20 min</td>
+                    <td>2–3 servicios diarios</td>
+                    <td>Estación de Autobuses de Vera</td>
+                    <td>Ruta interprovincial; conviene revisar horarios actualizados.</td>
+                 </tr>
+            </table>
+         
+
+            <article >
+                <p>Recuerda que los horarios pueden variar según la temporada, especialmente en verano y en festivos.
+                    Te recomendamos consultar los horarios actualizados antes de tu viaje y llegar con antelación si
+                    planeas acceder a la zona costera en hora punta.</p>
+            </article>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101628.05358698769!2d-1.9333238443229885!3d37.25063340450679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7ad503b293c5bb%3A0x54a6853cd00d7d0f!2sAyuntamiento%20de%20Vera!5e0!3m2!1ses!2ses!4v1763296930800!5m2!1ses!2ses" width="0" height="0" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </aside>
+
+    </section>
+
+    <!--Seccion de Contacto-->
+    <section id="Contacto">
+        <h1> Contacto</h1>
+        <hr>
+        <article class="contacto">
+
+            <p>Si necesitas comunicarte con el Ayuntamiento de Vera,
+                hay varios canales disponibles: presencial, telefónico, correo electrónico
+                o a través de la Sede Electrónica para gestiones administrativas.
+                La atención al ciudadano es una prioridad: puedes pedir cita previa para
+                trámites más complejos o utilizar formularios online para consultas generales o notificar incidencias.
+            </p>
+
+        </article>
+
+        <aside class="contacto">
+            <article>
+                <ul>
+                    <h3 style="font-size: 3rem;">Informacion de contacto:</h3>  
+                <ul class="Lista1">
+                    <li>Dirección: Plaza Mayor, 1 · 04620 Vera-Almería
+                        <ul>
+                            <li>Ubicación: casco histórico, junto a la plaza central</li>
+                            <li>Accesos: rampa en la entrada principal para PMR</li>
+                            <li>Parking: zona de aparcamiento público a 3 min</li>
+                        </ul>
+                    </li>
+                
+                    <li>Teléfono: 950 393 016
+                        <ul>
+                            <li>Horario de atención: lunes a viernes, 9:00–14:00</li>
+                            <li>Opciones telefónicas: 1 — Atención ciudadana / 2 — Cita previa</li>
+                            <li>Teléfono de emergencias municipales (fuera de horario): indicarse en web</li>
+                        </ul>
+                    </li>
+                
+                    <li>Correo electrónico institucional: alcaldia@vera.es
+                        <ul>
+                            <li>Usos recomendados: comunicaciones oficiales y solicitudes administrativas</li>
+                            <li>Alternativa: formularios web para consultas generales y notificaciones</li>
+                            <li>Adjuntos: se aceptan documentos en PDF</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+            </article>
+
+            <article>
+                <ul>
+                    <li>
+                        <h3 style="font-size: 3rem;">Informacion de extra:</h3>
+                    </li>
+                    <ol class="Lista2">
+                        <li>Plazos de respuesta orientativos
+                            <ul>
+                                <li>Consultas generales: 3–5 días laborables</li>
+                                <li>Notificaciones de incidencias: respuesta inicial 24–72 horas</li>
+                                <li>Trámites administrativos: según registro y plazos legales</li>
+                            </ul>
+                        </li>
+                    
+                        <li>Formularios rápidos incluidos en la página
+                            <ul>
+                                <li>Consulta general
+                                    <ul>
+                                        <li>Campos: asunto, descripción, nombre, email y teléfono</li>
+                                        <li>Respuesta: por correo electrónico</li>
+                                    </ul>
+                                </li>
+                    
+                                <li>Incidencia en vía pública
+                                    <ul>
+                                        <li>Campos: ubicación exacta, descripción, adjuntar foto</li>
+                                        <li>Confirmación: recibo automático</li>
+                                    </ul>
+                                </li>
+                    
+                                <li>Solicitud de información urbanística
+                                    <ul>
+                                        <li>Opción de adjuntar planos o documentos en PDF</li>
+                                        <li>Plazo legal informado en el formulario</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>
+                    
+                </ul>
+
+                
+
+            </article>
+        </aside>
+    </section>
+    <section>
+        <h1 id="Formulario" style="color: steelblue;"> Formulario:</h1>
+        <hr>
+        <iframe class="iframe_Formulario" src="./Formulario_Proyecto_Web.html"></iframe>
+       
+    </section>
+    <audio src="./Videos_y_Sonidos/La_Primavera_Vivaldi.mp3" controls autoplay loop></audio>
+
+    <!--Seccion de Contacto-->
+    <footer>
+        <p> © 2025 - Proyecto_04 | Ayuntamiento de Vera | Sofía Requena González</p>
+            <img src="./Videos_y_Sonidos/Videos_Proyecto_Ayuntamiento/Foto_logo_footer.png" alt="Logo Ayuntamiento de Vera" class="footer-logo-center">
+          
+    </footer>
+
+</body>
+
+</html>
