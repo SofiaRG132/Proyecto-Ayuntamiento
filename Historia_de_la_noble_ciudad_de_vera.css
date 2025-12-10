@@ -10,7 +10,7 @@ Sofía Requena González
 }
 
 body{
-    background-image:url(/imagenes/Tarea_08/Foto_de_fondo.png);
+    background-image:url(./imagenes/Tarea_08/Foto_de_fondo.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,5 +95,6 @@ hr {
 
 .Grid img:hover{
     transform: scale(1.38);
+
 
 }
