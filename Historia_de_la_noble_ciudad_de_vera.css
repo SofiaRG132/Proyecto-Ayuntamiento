@@ -1,0 +1,99 @@
+/*Hoja de estilo Historia_de_la_noble_ciudad_de_Vera.css
+Sofía Requena González
+12/11/2025*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+
+body{
+    background-image:url(/imagenes/Tarea_08/Foto_de_fondo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+header,footer{
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin: 25px;
+    height: auto;
+    background-color:  rgba(123, 101, 251, 0.688);
+    
+}
+
+header:hover{
+    background-color:  rgba(159, 255, 127, 0.675);
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin: 25px;
+    font-size: large;
+    font-style: italic;
+    height: auto;
+}
+
+footer:hover{
+    background-color: rgba(255, 127, 127, 0.675);
+    font-style: italic;
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+    margin: 15px;
+    margin: 60px 60px 30px 60px;
+    padding: 10px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    margin: 15px;
+    margin: 60px 60px 30px 60px;
+    padding: 10px;
+    
+}
+
+hr {
+    margin: 20px 200px 20px 200px;
+    height: 4px;
+    background-color: black;
+    
+ }
+
+
+ .main{
+    height: 50px;
+
+ }
+
+.Grid{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    margin: 60px
+
+}
+
+.Grid img{
+    width: 100%;
+    border: 6px solid rgb(229, 4, 0);
+    margin: auto;
+    transition: all 0.5s linear;
+
+}
+
+
+.Grid img:hover{
+    transform: scale(1.38);
+
+}
