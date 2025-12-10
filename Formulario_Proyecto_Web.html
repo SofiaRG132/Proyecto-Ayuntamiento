@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incidencias - IES Cura Valera</title>
+    <link rel="stylesheet" href="./Formulario_Proyecto_Web.css">
+</head>
+
+<body>
+    
+     <div  class="cabecera"></div> <!-- imagen de cabecera -->
+
+    <br>
+
+    <div class="contacto">
+        <h1>Comenta nuestra Pagina Web</h1>
+        <h3>Dirección: Plaza Mayor, 1, 04620 Vera, Almería
+            Ponte en contacto con nosotros en el (+34) 950 393 016</h3>
+            <h3>Hecho por: Sofía Requena González</h3>
+        <div class="linea"></div>
+    </div>
+    <br>
+    <div class="contacto">
+        <form action="contact.php" method="post" class="formulario" target="_blank">
+
+            <fieldset>
+                <legend style="color: white; text-align: center;">Correo:</legend>
+                <input type="email"  placeholder="Escriba su correo " name="email">
+            </fieldset>
+
+            <fieldset>
+                <legend style="color: white; text-align: center;">Nombre:</legend>
+
+                <label style="color: white; text-align: center;" for="fname">Nombre: </label>
+                <input type="text" id="fname" name="fname" placeholder="Escriba su nombre">
+            </fieldset>
+
+            <fieldset>
+                <legend style="color: white; text-align: center;">Apellido:</legend>
+
+                <label style="color: white; text-align: center;" for="lname">Apellidos:</label>
+                <input type="text" id="lname" name="name" placeholder="Escriba su apellido">
+            </fieldset>
+
+            <fieldset>
+                <legend style="color: white; text-align: center;">Telefono de Contacto:</legend>
+
+                <input type="tel" placeholder="Teléfono de Contacto" name="telefono">
+            </fieldset>            
+            
+            <fieldset>
+                <legend style="color: white; text-align: center;">Danos su opinion de nuestra pagina:</legend>                
+                <textarea style="text-align: center;" placeholder="Danos su opinion sobre la pagina web:" rows="10" cols="25" name="mensaje"></textarea>
+            </fieldset> 
+
+            <fieldset>
+                <legend style="color: white; text-align: center;">Valore nuestra pagina:</legend>
+
+                <label style="color: white; text-align: center;" for="informatico">1(estrella)</label>
+                <input type="radio" name="informatico" id="informatico">
+
+                <label style="color: white; text-align: center;" for="informatico">2(estrellas)</label>
+                <input type="radio" name="informatico" id="informatico">
+
+                <label style="color: white; text-align: center;" for="informatico">3(estrellas)</label>
+                <input type="radio" name="informatico" id="informatico">
+
+                <label style="color: white; text-align: center;" for="informatico">4(estrellas)</label>
+                <input type="radio" name="informatico" id="informatico">
+
+                <label style="color: rgb(255, 255, 255); text-align: center;" for="informatico">5(estrellas)</label>
+                <input type="radio" name="informatico" id="informatico">
+            </fieldset>
+
+            <fieldset>
+                <legend style="color: white; text-align: center;">Politicas de Privacidad:</legend>
+
+                <label style="color: white; text-align: center;" for="politicas_de_privacidad">He leído y acepto la política de protección de datos del Ayuntamiento de Vera</label>
+                <input type="radio" name="informatico" id="politicas_de_privacidad">
+            </fieldset>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 2rem;
+    background-color: rgb(166, 218, 213);
+    margin-top: 2rem;
+
+
+}
+
+div {
+    border-radius: 2rem;
+
+    background-color: black;
+    border: solid 5px black;
+
+
+
+}
+
+.cabecera {
+    background-image: url(./imagenes/Tarea_08/Foto_de_fondo_2.png);
+    height: 25rem;
+    width: 80%;
+    margin: auto;
+    border-radius: 0.6rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: rgb(11, 11, 11) -5px 5px 12px;
+
+    width: 60%;
+    margin: auto;
+    padding: 2rem;
+    overflow: auto;
+}
+
+div h1{
+    border-top: 2rem rgb(0, 150, 136)solid;
+}
+
+.contacto {
+    
+    background-color: black;
+    border: solid 5px black;
+    width: 60%;
+    margin: auto;
+    padding: 2rem;
+    overflow: auto;
+}
+
+.contacto h1 {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.contacto h3 {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-style: italic;
+
+}
+
+
+.linea {
+    background: white;
+    height: 0.5rem;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.formulario>* {
+    margin: 3rem 0rem 0rem 0rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+input {
+    text-align: center;
+    display: inline-block;
+    margin: 1.6rem;
+}
+
+fieldset {
+    text-align: center;
+
+}
+
+fieldset label {
+    margin: 2rem 1.8rem;
+
+}
+
+fieldset {
+    text-align: center;
+}
